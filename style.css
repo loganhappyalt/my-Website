@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+} 
+a:hover {
+    background-color: purple;
+}
+header {
+    background-color: grey;
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 0px;}
+
+    .smooth-flash {
+        animation: smoothFlash 3s infinite; /* 3-second smooth transition */
+      }
+      
+      @keyframes smoothFlash {
+        0% { color: red; }
+        33% { color: yellow; }
+        66% { color: blue; }
+        100% { color: red; } /* Looping back to the original color */
+      }
+      
