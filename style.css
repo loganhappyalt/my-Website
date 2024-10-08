@@ -1,25 +1,42 @@
-body {
+header {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: pink;
-} 
-a:hover {
+    background-color: darkblue;
+    border-radius: 100px;
+
+}body {
     background-color: purple;
 }
-header {
-    background-color: grey;
-    text-align: center;
-    border-radius: 16px;
-    padding: 20px;
-    margin: 0px;}
+img {
+    margin: 20px;
+    border-radius: 30px;
+    margin: 1.0px;
+    
+}
 
-    .smooth-flash {
-        animation: smoothFlash 3s infinite; /* 3-second smooth transition */
-      }
-      
-      @keyframes smoothFlash {
-        0% { color: red; }
-        33% { color: yellow; }
-        66% { color: blue; }
-        100% { color: red; } /* Looping back to the original color */
-      }
-      
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.contact-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00008B; /* Dark blue color */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5); /* Shadow to make it pop */
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 30px; /* Adds space between the two links */
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
